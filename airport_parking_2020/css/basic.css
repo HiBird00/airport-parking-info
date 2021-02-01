@@ -1,0 +1,252 @@
+*{margin:0; padding:0; 
+	/*font-family: 'Do Hyeon', sans-serif;*/
+font-family: 'nanumRound', sans-serif;}
+ body{background-color: #f9f9f9;}
+li{list-style: none;}
+a:visited{color: black; text-decoration: none;}
+a{text-decoration: none; color: black;}
+
+@font-face{
+	font-family: nanumRound;
+	src: url("../font/NanumFontSetup_TTF_SQUARE_ROUND/NanumSquareRoundR.ttf");
+}
+@font-face{
+	font-family: nanumRound;
+	src: url("../font/NanumFontSetup_TTF_SQUARE_ROUND/NanumSquareRoundB.ttf");
+	font-weight: bold;
+}
+
+
+.header-wrapper{
+	height: 80px;
+	width: 100%;
+	min-width: 1500px;
+	background-color: white;
+	border-bottom:1px solid #e8e8e8;
+	line-height: 80px;
+	vertical-align: center;
+	text-align: center;
+}
+
+.header-logo{
+	position: absolute;
+	left: 50px;
+	font-size: 18px;
+}
+
+.header-logo h4{
+	display: inline-block;
+	font-size: 28px;
+}
+
+
+.header-text{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+/* body */
+.airport-list{
+	position: absolute;
+	display: inline-block;
+	background-color: #444;
+	width: 300px;
+	height:auto;
+}
+
+.airport-list li{
+	color: #A1A1A1;
+	font-size: 18px;
+	font-weight: bold;
+	height: 70px;
+	width: 100%;
+	line-height:70px;
+	vertical-align: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+.airport-list li::before{
+	content: '';
+	display: block;
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background-color: #4C4C4C;
+}
+
+.detail{
+	position: absolute;
+	left : 330px;
+	right : 40px;
+}
+
+.detail li{
+	width: 1070px;
+	/*min-width: 980px;*/
+	overflow: hidden;
+	margin-top: 10px;
+	background-color: white;
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #E1E1E1;
+	padding: 10px 40px;
+}
+.detail li:last-child{
+	margin-bottom: 50px;
+}
+
+.error{
+	font-size: 18px;
+}
+
+.area-wrap{
+	padding: 20px 0;
+}
+
+.detail-update{
+	position: relative;
+	font-size: 12px;
+	float: right;
+}
+
+.reload{
+	position: relative;
+	top:2.5px;
+	right : 6px;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+}
+
+.detail-name span{
+	font-size: 16px;
+}
+
+.detail-name h4{
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+.condition-container{
+	float: left;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.detail-condition{
+	padding: 10px 0;
+}
+
+.detail-condition::after{
+	content: '';
+	display: block;
+	margin-top: 20px;
+	height: 0.5px;
+	width: 100%;
+	background-color: #dedcdc;
+}
+
+.cond1{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.cond2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.good{
+	color : #26c626;
+}
+.congestion{
+	color : #ffa500;
+}
+.full{
+	color : #ff0000;
+}
+
+.detail-carnumber{
+	padding: 10px 0;
+}
+
+.car1{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.car2{
+	font-size: 30px;
+}
+
+.pay-container{
+	float: left;
+	margin-top: 22px;
+	margin-left: 50px;
+}
+
+.pay-container h3{
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.pay-area{
+	overflow: hidden;
+	padding: 10px;
+}
+
+.weekpay{
+	margin-top: 20px;
+}
+
+.detail-weekpay{
+	float: left;
+}
+
+.detail-weekpay h4{
+	display: inline-block;
+	font-size: 18px;
+}
+
+table{
+	text-align: center;
+	width: 350px;
+	font-size: 14px;
+	margin-right: 50px;
+}
+
+th{
+	font-size: 16px;
+	letter-spacing: 3px;
+	height: 40px;
+	border-bottom: 1px solid #dedcdc;
+}
+
+th:nth-child(1){
+	background-color: white;
+}
+
+th h3{
+	font-size: 12px;
+	font-weight: 100;
+}
+
+tbody tr td{
+	height: 40px;
+
+}
+
+/*tbody tr td:nth-child(1){
+	width: 150px;
+} 
+*/
+
+.test{
+	margin-left: 1000px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
