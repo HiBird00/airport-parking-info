@@ -6,7 +6,7 @@ web service for realtime airport parking infomation with public data.
 - 공공데이터 : 전국 공항 실시간 주차장 데이터
 - AWS Lambda (node.js)
 - AWS API Gateway
-- html, css, jquery
+- html, css, jquery, mongoDB
 
 ## 기능
 - 인천, 김포, 광주 등 공항 선택 가능
