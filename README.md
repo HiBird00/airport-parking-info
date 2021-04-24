@@ -1,7 +1,7 @@
 # airport-parking-info
 web service for realtime airport parking infomation with public data.
 
-# <공공데이터와 AWS Lambda>를 활용한 실시간 공항 주차장 정보 제공 웹 서비스
+# `공공데이터와 AWS Lambda`를 활용한 실시간 공항 주차장 정보 제공 웹 서비스
 ## 사용 언어 및 data
 - 공공데이터 : 전국 공항 실시간 주차장 데이터
 - AWS Lambda (node.js)
