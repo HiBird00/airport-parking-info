@@ -20,4 +20,4 @@ web service for realtime airport parking infomation with public data.
 <img src="https://user-images.githubusercontent.com/48594896/135780268-21abd78e-f571-4425-b597-607c96813010.png" />
 
 ## 화면
-<img src="https://user-images.githubusercontent.com/48594896/135780173-55f05965-af75-475a-8871-da557bf4034b.png" />
+<img src="https://user-images.githubusercontent.com/48594896/135780371-9abcbf25-54e5-4fcd-93ec-44d8fc748241.png" />
